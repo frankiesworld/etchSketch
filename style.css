@@ -11,3 +11,8 @@
     border: 1px solid white;
     box-sizing: border-box;
 }
+
+#sizeButton {
+    height: 80px;
+    width: 200px;
+}

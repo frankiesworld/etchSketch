@@ -21,4 +21,9 @@ for (let i = 0; i < 256; i++) {
     drawSquare();
 }
 
+const button = document.getElementById('sizeButton');
 
+
+button.addEventListener('click', () => {
+    const userInput = prompt("resize container", "1-100");
+});
